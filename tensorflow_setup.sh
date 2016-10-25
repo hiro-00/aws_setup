@@ -26,3 +26,9 @@ sudo pip3 install --upgrade $TF_BINARY_URL
 
 python3 -m tensorflow.models.image.mnist.convolutional
 
+git clone https://github.com/openai/gym
+cd gym
+sudo pip3 install -e .
+sudo pip3 install python-dateutil
+
+
