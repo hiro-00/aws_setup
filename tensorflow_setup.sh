@@ -31,4 +31,7 @@ cd gym
 sudo pip3 install -e .
 sudo pip3 install python-dateutil
 sudo pip3 install scikit-image
-
+sudo pip3 install scipy
+sudo pip3 install matplotlib
+sudo yum install libtiff-devel libjpeg-devel libzip-devel freetype-devel lcms2-devel libwebp-devel tcl-devel tk-devel cmake -y
+sudo pip3 install gym[atari]
